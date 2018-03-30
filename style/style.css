@@ -36,6 +36,11 @@ footer {
     margin-bottom: 10px;
 }
 
+#booking span:hover {
+    background-color: white;
+    color: black;
+}
+
 #booking span {
     background-color: black;
     color: white;
