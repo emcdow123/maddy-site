@@ -1,0 +1,77 @@
+html {
+    background-image: url('../img/maddyback.jpg');
+    background-color: lightblue;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+header {
+    text-align: center;
+}
+
+#logo {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+#booking {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#booking span {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer img {
+    margin: 0 10px;
+}
+
+.social-icon {
+    margin: 0 5px;
+}
+
+.social-icon:hover .social-inner {
+    fill: #000000;
+}
+
+.social-icon:hover .social-outer {
+    fill: #ffffff;
+}
+
+/* Media Queries */
+@media
+(-webkit-min-device-pixel-ratio: 2) and
+(min-resolution: 192dpi) and
+(max-device-width: 769px) { 
+    .social-icon {
+        height: 96px;
+        width: 96px;
+    }
+}
