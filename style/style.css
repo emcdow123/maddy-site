@@ -96,11 +96,15 @@ footer img {
 (min-resolution: 192dpi) and
 (max-device-width: 769px) { 
     #logo {
-        height: 100px;
+        height: 175px;
     }
     
     .social-icon {
-        height: 136px;
-        width: 136px;
+        height: 192px;
+        width: 192px;
+    }
+
+    footer {
+        font-size: 96px;
     }
 }
