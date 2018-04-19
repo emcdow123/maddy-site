@@ -95,8 +95,12 @@ footer img {
 (-webkit-min-device-pixel-ratio: 2) and
 (min-resolution: 192dpi) and
 (max-device-width: 769px) { 
+    #logo {
+        height: 100px;
+    }
+    
     .social-icon {
-        height: 96px;
-        width: 96px;
+        height: 136px;
+        width: 136px;
     }
 }
