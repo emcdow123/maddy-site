@@ -27,8 +27,15 @@ footer {
     left: 0;
     bottom: 10px;
     width: 100%;
-    font-size: 48px;
     padding-bottom: 15px;
+}
+
+.booking-info {
+    font-size: 48px;
+}
+
+.booking-info-expanded {
+    font-size: 36px;
 }
 
 #booking {
@@ -104,7 +111,11 @@ footer img {
         width: 192px;
     }
 
-    footer {
+    .booking-info {
         font-size: 96px;
+    }
+
+    .booking-info-expanded {
+        font-size: 72px;
     }
 }
