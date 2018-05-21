@@ -1,6 +1,6 @@
 html {
     background-image: url('../img/maddyback.jpg');
-    background-color: lightblue;
+    /* background-color: lightblue; */
     background-position: center 33%;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -8,7 +8,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
   }
 
 header {
@@ -29,30 +29,16 @@ footer {
     width: 100%;
     padding-bottom: 15px;
 }
-
 .booking-info {
-    font-size: 48px;
-}
-
-.booking-info-expanded {
     font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding: 4px;
 }
 
 #booking {
     text-align: center;
     margin-bottom: 10px;
-}
-
-#booking span:hover {
-    background-color: white;
-    color: black;
-}
-
-#booking span {
-    background-color: black;
-    color: white;
-    font-weight: 700;
-    padding: 4px;
 }
 
 #social {
