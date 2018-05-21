@@ -72,6 +72,10 @@ footer img {
     #logo {
         height: 75px;
     }
+
+    .booking-info {
+        font-size: 24px;
+    }
 }
 /* Don't know why these have to be done separately, this is silly */
 @media (max-width: 820px) {
@@ -81,6 +85,10 @@ footer img {
 
     #logo {
         height: 75px;
+    }
+
+    .booking-info {
+        font-size: 24px;
     }
 }
 
@@ -98,10 +106,6 @@ footer img {
     }
 
     .booking-info {
-        font-size: 96px;
-    }
-
-    .booking-info-expanded {
-        font-size: 72px;
+        font-size: 24px;
     }
 }
