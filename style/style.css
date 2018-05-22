@@ -120,7 +120,7 @@ footer img {
 (max-device-width: 1480px) and
 (orientation: landscape) { 
     html {
-        height: 100vh;
+        background-position-y: -50px;
     }
     #logo {
         height: 75px;
