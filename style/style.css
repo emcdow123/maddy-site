@@ -113,3 +113,21 @@ footer img {
         font-size: 48px;
     }
 }
+
+@media
+(-webkit-min-device-pixel-ratio: 2) and
+(min-resolution: 192dpi) and
+(max-device-width: 1024px) { 
+    #logo {
+        height: 75px;
+    }
+    
+    .social-icon {
+        height: 96px;
+        width: 96px;
+    }
+
+    .booking-info {
+        font-size: 24px;
+    }
+}
