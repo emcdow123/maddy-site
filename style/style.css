@@ -117,7 +117,8 @@ footer img {
 @media
 (-webkit-min-device-pixel-ratio: 2) and
 (min-resolution: 192dpi) and
-(max-device-width: 1024px) { 
+(max-device-width: 1480px) and
+(orientation: landscape) { 
     #logo {
         height: 75px;
     }
