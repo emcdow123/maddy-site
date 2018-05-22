@@ -9,7 +9,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Gothic A1', sans-serif;
-    height: 100%;
+    height: 100vw;
     min-height: 100%;
 }
 
