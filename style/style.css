@@ -55,12 +55,12 @@ footer img {
 }
 
 .social-link {
+    margin: 0 5px;
     height: 46px;
     width: 46px;
 }
 
 .social-icon {
-    margin: 0 5px;
     height: 100%;
     width: 100%;
 }
