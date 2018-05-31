@@ -54,8 +54,15 @@ footer img {
     margin: 0 10px;
 }
 
+.social-link {
+    height: 46px;
+    width: 46px;
+}
+
 .social-icon {
     margin: 0 5px;
+    height: 100%;
+    width: 100%;
 }
 
 .social-icon:hover .social-inner {
@@ -125,10 +132,10 @@ footer img {
         height: 75px;
     }
     
-    .social-icon {
+    /* .social-icon {
         height: 96px;
         width: 96px;
-    }
+    } */
 
     .booking-info {
         font-size: 36px;
@@ -146,12 +153,12 @@ only screen and (min-device-pixel-ratio: 2.0) {
         height: 175px;
     }
 
-    .social-icon {
+    /* .social-icon {
         height: 96px;
         width: 96px;
-    }
+    } */
 
-    .booking-info {
+    /* .booking-info {
         font-size: 48px;
-    }
+    } */
 }
