@@ -96,23 +96,22 @@ footer img {
     }
 }
 
-@media
+/* @media
 (-webkit-min-device-pixel-ratio: 2) and
-(min-resolution: 192dpi) and
-(max-device-width: 769px) { 
+(min-resolution: 192dpi) { 
     #logo {
         height: 175px;
     }
     
-    /* .social-icon {
+    .social-icon {
         height: 192px;
         width: 192px;
-    } */
+    }
 
     .booking-info {
         font-size: 48px;
     }
-}
+} */
 
 @media
 (-webkit-min-device-pixel-ratio: 2) and
@@ -126,15 +125,33 @@ footer img {
         height: 75px;
     }
     
-    /* .social-icon {
+    .social-icon {
         height: 96px;
         width: 96px;
-    } */
+    }
 
     .booking-info {
         font-size: 36px;
         color: rgb(255, 255, 255);
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         padding: 2px;
+    }
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    #logo {
+        height: 175px;
+    }
+
+    .social-icon {
+        height: 96px;
+        width: 96px;
+    }
+
+    .booking-info {
+        font-size: 48px;
     }
 }
